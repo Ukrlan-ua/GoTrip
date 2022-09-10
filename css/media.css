@@ -22,6 +22,11 @@
 @media (max-width: 1000px)
 {
 
+    /* Запрещаем скроллить в мобильном меню + js */
+    .no-scroll{
+    overflow-y: hidden;
+}
+
     .destinations-slider{
         width: 700px;
     }
@@ -203,6 +208,7 @@
             height: auto;
         }
 
+     
         .header{
             position: relative;
             height: auto;
@@ -296,7 +302,7 @@
             padding: 28px 0 44px 0;
         }
 
-        .nav{
+        .nav-footer{
             flex-direction: column-reverse;
             row-gap: 30px;
         }

@@ -592,11 +592,6 @@ a{
     padding: 58px 0 74px 0;
 }
 
-/* Запрещаем скроллить в мобильном меню + js */
-.no-scroll{
-    overflow-y: hidden;
-}
-
 .none{
     display: non;
 }
